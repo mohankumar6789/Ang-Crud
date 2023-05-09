@@ -1,6 +1,6 @@
 <h2 mat-dialog-title>Add Product Form</h2>
 <div mat-dialog-content>
-    <form [formGroup]="produtFrom">
+    <form [formGroup]="productForm">
         <mat-form-field class="example-full-width" appearance="outline">
             <mat-label>Product Name</mat-label>
             <input formControlName="productName" matInput placeholder="placeholder">
@@ -26,18 +26,18 @@
                 {{fresh}}
             </mat-radio-button>
         </mat-radio-group>
-        <mat-form-field formControlName="price" class="example-full-width" appearance="outline">
+        <mat-form-field class="example-full-width" appearance="outline">
             <mat-label>Price</mat-label>
-            <input matInput type="number" placeholder="Name">
+            <input formControlName="price" matInput type="number" placeholder="Name">
         </mat-form-field>
-        <mat-form-field formControlName="comment" class="example-full-width" appearance="outline">
+        <mat-form-field class="example-full-width" appearance="outline">
             <mat-label>Comment</mat-label>
-            <textarea matInput></textarea>
+            <textarea formControlName="comment" matInput></textarea>
         </mat-form-field>
     </form>
 </div>
 <div mat-dialog-action [align]="'end'">
     <button mat-raised-button color="warn" mat-dialog-close>Close</button>
-    <button style="margin-left: 10px;" mat-raised-button color="primary">Save</button>
+    <button style="margin-left: 10px;" mat-raised-button color="primary" (click)="addProduct()">Save</button>
 </div>
 
