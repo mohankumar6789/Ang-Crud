@@ -1,3 +1,16 @@
 .example-spacer {
     flex: 1 1 auto;
-  }
+}
+
+.contaniner{
+  margin: 20px;
+}
+
+table, mat-form-field {
+  width: 100% !important;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
