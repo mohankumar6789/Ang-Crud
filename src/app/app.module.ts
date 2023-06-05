@@ -4,12 +4,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialdesignModule } from '../materialdesign/materialdesign/materialdesign.module';
-import { DialogComponent } from './dialog/dialog.component';
+import { DialogComponent } from './pages/contact/dialog/dialog.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { DahsboardComponent } from './pages/contact/dahsboard/dahsboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DialogComponent
+    DialogComponent,
+    ContactComponent,
+    DahsboardComponent
   ],
   imports: [
     BrowserModule,
