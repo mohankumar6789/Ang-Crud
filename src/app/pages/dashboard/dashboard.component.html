@@ -1,9 +1,12 @@
 <div class="contaniner">
     <div style="margin-top: 10px;">
-        <mat-form-field>
-            <mat-label>Filter</mat-label>
-            <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Mia" #input>
-        </mat-form-field>
+        <div class="btn-add-products">
+            <mat-form-field>
+                <mat-label>Filter</mat-label>
+                <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Mia" #input>
+            </mat-form-field>
+            <button mat-raised-button color="warn" (click)="openDialog()">Add Products</button>
+        </div>
         <div class="mat-elevation-z8">
             <table mat-table [dataSource]="dataSource" matSort>
                 <ng-container matColumnDef="productName">

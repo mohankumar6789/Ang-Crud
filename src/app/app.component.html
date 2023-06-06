@@ -4,11 +4,11 @@
     </button>
     <span>Angular 13 CRUD Using Material UI</span>
     <span class="example-spacer"></span>
-    <a href="" style="margin-right: 10px;" class="" mat-flat-button><mat-icon aria-hidden="false" fontIcon="home"></mat-icon>Home</a>
-    <a href="" style="margin-right: 10px;" class="" mat-flat-button>Mat Components</a>
-    <a href="" style="margin-right: 10px;" class="" mat-flat-button>Services</a>
-    <a href="" routerLink="pages/contact" style="margin-right: 10px;" class="" mat-flat-button>Contacts</a>
-    <a href="" style="margin-right: 10px;" class="" mat-flat-button>Login</a>
-    <button mat-raised-button color="warn" (click)="openDialog()">Add Products</button>
+    <a routerLink="pages/dashboard" style="margin-right: 10px;" class="" mat-flat-button>
+        <mat-icon aria-hidden="false" fontIcon="home"></mat-icon>Dashboard</a>
+    <a style="margin-right: 10px;" class="" mat-flat-button>Mat Components</a>
+    <a style="margin-right: 10px;" class="" mat-flat-button>Services</a>
+    <a routerLink="pages/contact" style="margin-right: 10px;" class="" mat-flat-button>Contacts</a>
+    <a routerLink="pages/login" style="margin-right: 10px;" class="" mat-flat-button>Login</a>
 </mat-toolbar>
 <router-outlet></router-outlet>

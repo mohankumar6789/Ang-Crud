@@ -4,14 +4,15 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { ApiService } from 'src/services/api.service';
-import { DialogComponent } from '../dialog/dialog.component';
+import { DialogComponent } from 'src/app/dialog/dialog.component';
 
 @Component({
-  selector: 'app-dahsboard',
-  templateUrl: './dahsboard.component.html',
-  styleUrls: ['./dahsboard.component.scss']
+  selector: 'app-dashboard',
+  templateUrl: './dashboard.component.html',
+  styleUrls: ['./dashboard.component.scss']
 })
-export class DahsboardComponent implements OnInit {
+
+export class DashboardComponent implements OnInit {
   title = 'angcrud';
   displayedColumns: string[] = ['productName', 'category', 'date', 'freshness', 'price', 'comment', 'action'];
   dataSource!: MatTableDataSource<any>;
@@ -23,6 +24,7 @@ export class DahsboardComponent implements OnInit {
   ngOnInit(): void {
     this.getAllProducts();
   }
+  
   openDialog() {
     this.dialog.open(DialogComponent,{
       width:'45%'

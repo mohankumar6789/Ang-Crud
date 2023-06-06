@@ -1,7 +1,7 @@
-<div style="margin-left:20px; text-align: center;margin-top: 20px;">
-    <h3>
+<div style="margin-left:40px; margin-top: 40px;">
+    <h2>
         Contact Us
-    </h3>
+    </h2>
     <div class="example-container">
         <form [formGroup]="addShopFormGroup" (ngSubmit)="onSubmit()" class="example-form">
             <p>
@@ -24,7 +24,7 @@
                         characters</mat-error>
                 </mat-form-field>
             </p>
-            <button type="submit" [disabled]="!addShopFormGroup.valid">Submit</button>
+            <button mat-raised-button color="primary" type="submit" [disabled]="!addShopFormGroup.valid">Submit</button>
         </form>
     </div>
 </div>

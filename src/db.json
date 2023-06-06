@@ -1,15 +1,6 @@
 {
   "productList": [
     {
-      "productName": "Apple",
-      "category": "Fruits",
-      "freshness": "Brand New",
-      "price": 190,
-      "comment": "Fresh Apple Kit",
-      "date": "2023-05-09T18:30:00.000Z",
-      "id": 1
-    },
-    {
       "productName": "Beetroot",
       "category": "Vegetables",
       "freshness": "Brand New",
@@ -26,6 +17,15 @@
       "comment": "Nature Fruits Types",
       "date": "2023-06-04T18:30:00.000Z",
       "id": 4
+    },
+    {
+      "productName": "assw",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 1234,
+      "comment": "test",
+      "date": "2023-06-05T18:30:00.000Z",
+      "id": 5
     }
   ],
   "comments": [
