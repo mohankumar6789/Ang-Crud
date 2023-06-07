@@ -8,6 +8,9 @@ import { DialogComponent } from './dialog/dialog.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
+import { ReactiveFormPageComponent } from './pages/reactive-form/reactive-form-page/reactive-form-page.component';
+import { CustomlistComponent } from './customlist/customlist/customlist.component';
+import { CustomdetailsComponent } from './customdetails/customdetails/customdetails.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { LoginComponent } from './login/login.component';
     DialogComponent,
     ContactComponent,
     DashboardComponent,
-    LoginComponent
+    LoginComponent,
+    ReactiveFormPageComponent,
+    CustomlistComponent,
+    CustomdetailsComponent
   ],
   imports: [
     BrowserModule,

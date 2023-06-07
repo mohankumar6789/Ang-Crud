@@ -9,4 +9,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .mat-divider { margin: 0 0 20px!important; }
 .example-card { background: #e7e7e7!important;}
 .mx-2 { margin: 0 20px !important;}
+.reactive-form-section .mdc-text-field--filled:not(.mdc-text-field--disabled) { background-color: transparent !important;}
+.reactive-form-section .mdc-line-ripple{ display: none !important; }
+.reactive-form-section .mat-mdc-form-field:hover .mat-mdc-form-field-focus-overlay { opacity: 0; }
+.reactive-form-section .mat-mdc-form-field-infix{ width: 250px !important;;}
+.reactive-form-section .mat-mdc-text-field-wrapper .mat-mdc-form-field-infix .mat-mdc-floating-label { display: none !important;}
 

@@ -1,0 +1,12 @@
+.reactive-form-section {
+    padding: 20px;
+    .btn-outline-secondary{
+        display: none;
+    }
+    .border-btm{
+        margin-bottom: 15px;
+        input{
+            border-bottom: 1px solid black !important;
+        }
+    }
+}
