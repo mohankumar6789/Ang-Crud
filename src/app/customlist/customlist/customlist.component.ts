@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Customer } from '../customer';
+import { Customer } from 'src/app/customer';
 
 @Component({
   selector: 'app-customlist',
@@ -7,7 +7,7 @@ import { Customer } from '../customer';
   styleUrls: ['./customlist.component.scss']
 })
 
-export class CustomlistComponent {
+export class CustomlistComponent implements OnInit {
   customers: Customer[] = [
  
     {customerNo: 1, name: 'Rahuld Dravid', address: '', city: 'Banglaore', state: 'Karnataka', country: 'India'},
@@ -37,4 +37,5 @@ export class CustomlistComponent {
       alert("Customer Saved")
     }
   }
+
 }

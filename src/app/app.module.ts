@@ -11,6 +11,8 @@ import { LoginComponent } from './login/login.component';
 import { ReactiveFormPageComponent } from './pages/reactive-form/reactive-form-page/reactive-form-page.component';
 import { CustomlistComponent } from './customlist/customlist/customlist.component';
 import { CustomdetailsComponent } from './customdetails/customdetails/customdetails.component';
+import { FormsModule } from '@angular/forms';
+import { DecoratorsComponent } from './pages/decorators/decorators/decorators.component'
 
 @NgModule({
   declarations: [
@@ -21,15 +23,18 @@ import { CustomdetailsComponent } from './customdetails/customdetails/customdeta
     LoginComponent,
     ReactiveFormPageComponent,
     CustomlistComponent,
-    CustomdetailsComponent
+    CustomdetailsComponent,
+    DecoratorsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialdesignModule
+    MaterialdesignModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

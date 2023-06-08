@@ -1,1 +1,10 @@
-<p>customdetails works!</p>
+<div class="customer-list">
+    <p><span>Customer No :</span> {{customer.customerNo}}</p>
+    <p><span>Name :</span> <input [(ngModel)]="customer.name"></p>
+    <p><span>Address :</span> <input [(ngModel)]="customer.address"></p>
+    <p><span>City :</span><input [(ngModel)]="customer.city"></p>
+    <p><span>State :</span><input [(ngModel)]="customer.state"></p>
+    <p><span>Country :</span><input [(ngModel)]="customer.country"></p>
+    <button class="update-btn" (click)="update()">Update</button>
+</div>
+

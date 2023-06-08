@@ -1,7 +1,7 @@
 {
   "productList": [
     {
-      "productName": "Beetroot",
+      "productName": "Green Apple",
       "category": "Vegetables",
       "freshness": "Brand New",
       "price": 150,
@@ -19,13 +19,13 @@
       "id": 4
     },
     {
-      "productName": "assw",
-      "category": "Fruits",
+      "productName": "Green Tomato",
+      "category": "Vegetables",
       "freshness": "Brand New",
-      "price": 1234,
-      "comment": "test",
-      "date": "2023-06-05T18:30:00.000Z",
-      "id": 5
+      "price": 12345,
+      "comment": "Test Vegetables",
+      "date": "2023-06-07T18:30:00.000Z",
+      "id": 6
     }
   ],
   "comments": [

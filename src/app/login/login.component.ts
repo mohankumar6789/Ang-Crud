@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
       if(data){
         this.isloading = true;
         setTimeout(() => {
-          this.router.navigate(['pages/contact'])
+          this.router.navigate(['pages/decorators'])
         }, 2000);
       }
     })
