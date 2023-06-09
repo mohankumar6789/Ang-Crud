@@ -12,7 +12,10 @@ import { ReactiveFormPageComponent } from './pages/reactive-form/reactive-form-p
 import { CustomlistComponent } from './customlist/customlist/customlist.component';
 import { CustomdetailsComponent } from './customdetails/customdetails/customdetails.component';
 import { FormsModule } from '@angular/forms';
-import { DecoratorsComponent } from './pages/decorators/decorators/decorators.component'
+import { DecoratorsComponent } from './pages/decorators/decorators/decorators.component';
+import { AppChildComponentComponent } from './pages/app-child/app-child-component/app-child-component.component';
+import { LifeCyclehooksComponent } from './lifecycle-hooks/life-cyclehooks/life-cyclehooks.component';
+import { AppParentComponent } from './pages/app-parent/app-parent/app-parent.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { DecoratorsComponent } from './pages/decorators/decorators/decorators.co
     ReactiveFormPageComponent,
     CustomlistComponent,
     CustomdetailsComponent,
-    DecoratorsComponent
+    DecoratorsComponent,
+    AppChildComponentComponent,
+    LifeCyclehooksComponent,
+    AppParentComponent
   ],
   imports: [
     BrowserModule,
