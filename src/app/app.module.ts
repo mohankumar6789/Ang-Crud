@@ -15,7 +15,13 @@ import { FormsModule } from '@angular/forms';
 import { DecoratorsComponent } from './pages/decorators/decorators/decorators.component';
 import { AppChildComponentComponent } from './pages/app-child/app-child-component/app-child-component.component';
 import { LifeCyclehooksComponent } from './lifecycle-hooks/life-cyclehooks/life-cyclehooks.component';
-import { AppParentComponent } from './pages/app-parent/app-parent/app-parent.component'
+import { AppParentComponent } from './pages/app-parent/app-parent/app-parent.component';
+import { AppChildOnInitComponent } from './pages/oninit/app-child-on-init/app-child-on-init.component';
+import { AppParentOninitComponent } from './pages/oninit/app-parent-oninit/app-parent-oninit.component';
+import { AppNgdocheckComponent } from './pages/ngdocheck/app-ngdocheck/app-ngdocheck.component';
+import { AftercontentCheckedAComponent } from './pages/ngaftercontentchecked/aftercontent-checked-a/aftercontent-checked-a.component';
+import { AftercontentCheckedBComponent } from './pages/ngaftercontentchecked/aftercontent-checked-b/aftercontent-checked-b.component';
+import { AftercontentCheckedCComponent } from './pages/ngaftercontentchecked/aftercontent-checked-c/aftercontent-checked-c.component'
 
 @NgModule({
   declarations: [
@@ -30,7 +36,13 @@ import { AppParentComponent } from './pages/app-parent/app-parent/app-parent.com
     DecoratorsComponent,
     AppChildComponentComponent,
     LifeCyclehooksComponent,
-    AppParentComponent
+    AppParentComponent,
+    AppChildOnInitComponent,
+    AppParentOninitComponent,
+    AppNgdocheckComponent,
+    AftercontentCheckedAComponent,
+    AftercontentCheckedBComponent,
+    AftercontentCheckedCComponent
   ],
   imports: [
     BrowserModule,
