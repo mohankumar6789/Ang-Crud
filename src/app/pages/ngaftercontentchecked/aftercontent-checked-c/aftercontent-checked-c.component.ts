@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ContentChild, AfterContentInit, ElementRef, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-aftercontent-checked-c',

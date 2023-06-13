@@ -21,7 +21,10 @@ import { AppParentOninitComponent } from './pages/oninit/app-parent-oninit/app-p
 import { AppNgdocheckComponent } from './pages/ngdocheck/app-ngdocheck/app-ngdocheck.component';
 import { AftercontentCheckedAComponent } from './pages/ngaftercontentchecked/aftercontent-checked-a/aftercontent-checked-a.component';
 import { AftercontentCheckedBComponent } from './pages/ngaftercontentchecked/aftercontent-checked-b/aftercontent-checked-b.component';
-import { AftercontentCheckedCComponent } from './pages/ngaftercontentchecked/aftercontent-checked-c/aftercontent-checked-c.component'
+import { AftercontentCheckedCComponent } from './pages/ngaftercontentchecked/aftercontent-checked-c/aftercontent-checked-c.component';
+import { AppAftercontentinitComponent } from './pages/ngaftercontentInit/app-aftercontentinit/app-aftercontentinit.component';
+import { AppAftercontentinitBComponent } from './pages/ngaftercontentInit/app-aftercontentinit-b/app-aftercontentinit-b.component';
+import { AppAftercontentinitCComponent } from './pages/ngaftercontentInit/app-aftercontentinit-c/app-aftercontentinit-c.component'
 
 @NgModule({
   declarations: [
@@ -42,7 +45,10 @@ import { AftercontentCheckedCComponent } from './pages/ngaftercontentchecked/aft
     AppNgdocheckComponent,
     AftercontentCheckedAComponent,
     AftercontentCheckedBComponent,
-    AftercontentCheckedCComponent
+    AftercontentCheckedCComponent,
+    AppAftercontentinitComponent,
+    AppAftercontentinitBComponent,
+    AppAftercontentinitCComponent
   ],
   imports: [
     BrowserModule,
