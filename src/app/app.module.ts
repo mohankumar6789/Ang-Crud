@@ -19,12 +19,16 @@ import { AppParentComponent } from './pages/app-parent/app-parent/app-parent.com
 import { AppChildOnInitComponent } from './pages/oninit/app-child-on-init/app-child-on-init.component';
 import { AppParentOninitComponent } from './pages/oninit/app-parent-oninit/app-parent-oninit.component';
 import { AppNgdocheckComponent } from './pages/ngdocheck/app-ngdocheck/app-ngdocheck.component';
-import { AftercontentCheckedAComponent } from './pages/ngaftercontentchecked/aftercontent-checked-a/aftercontent-checked-a.component';
-import { AftercontentCheckedBComponent } from './pages/ngaftercontentchecked/aftercontent-checked-b/aftercontent-checked-b.component';
-import { AftercontentCheckedCComponent } from './pages/ngaftercontentchecked/aftercontent-checked-c/aftercontent-checked-c.component';
-import { AppAftercontentinitComponent } from './pages/ngaftercontentInit/app-aftercontentinit/app-aftercontentinit.component';
-import { AppAftercontentinitBComponent } from './pages/ngaftercontentInit/app-aftercontentinit-b/app-aftercontentinit-b.component';
-import { AppAftercontentinitCComponent } from './pages/ngaftercontentInit/app-aftercontentinit-c/app-aftercontentinit-c.component'
+import { AftercontentCheckedAComponent } from './pages/ngaftercontentInit/aftercontentInit-a/aftercontentInit-a.component';
+import { AftercontentCheckedBComponent } from './pages/ngaftercontentInit/aftercontentInit-b/aftercontentInit-b.component';
+import { AftercontentCheckedCComponent } from './pages/ngaftercontentInit/aftercontentInit-c/aftercontentInit-c.component';
+import { AppAftercontentinitComponent } from './pages/ngafterviewInit/afterviewInit-a/afterviewInit-a.component';
+import { AppAftercontentinitBComponent } from './pages/ngafterviewInit/afterviewInit-b/afterviewInit-b.component';
+import { AppAftercontentinitCComponent } from './pages/ngafterviewInit/afterviewInit-c/afterviewInit-c.component';
+import { AfterviewcheckedAComponent } from './pages/ngafterviewchecked/afterviewchecked-a/afterviewchecked-a.component';
+import { AfterviewcheckedBComponent } from './pages/ngafterviewchecked/afterviewchecked-b/afterviewchecked-b.component';
+import { AfterviewcheckedCComponent } from './pages/ngafterviewchecked/afterviewchecked-c/afterviewchecked-c.component';
+import { OndestroyComponent } from './pages/ngondestroy/ondestroy/ondestroy.component'
 
 @NgModule({
   declarations: [
@@ -48,7 +52,11 @@ import { AppAftercontentinitCComponent } from './pages/ngaftercontentInit/app-af
     AftercontentCheckedCComponent,
     AppAftercontentinitComponent,
     AppAftercontentinitBComponent,
-    AppAftercontentinitCComponent
+    AppAftercontentinitCComponent,
+    AfterviewcheckedAComponent,
+    AfterviewcheckedBComponent,
+    AfterviewcheckedCComponent,
+    OndestroyComponent
   ],
   imports: [
     BrowserModule,
